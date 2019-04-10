@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Aluno/Desktop/aula1/porta_ou.v
+source_file = 1, C:/Users/Aluno/Desktop/aula1/db/porta_ou.cbx.xml
+design_name = porta_ou
+instance = comp, \A~I , A, porta_ou, 1
+instance = comp, \B~I , B, porta_ou, 1
+instance = comp, \S~0 , S~0, porta_ou, 1
+instance = comp, \S~I , S, porta_ou, 1
