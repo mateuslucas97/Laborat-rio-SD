@@ -1,1 +1,1 @@
-# Laborat-rio-SD
+# práticas do laborio de sistemas digitais professora Mara 
