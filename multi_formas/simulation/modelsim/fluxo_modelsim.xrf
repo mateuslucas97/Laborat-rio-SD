@@ -1,0 +1,10 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Aluno/Desktop/multi_formas/fluxo.v
+source_file = 1, C:/Users/Aluno/Desktop/multi_formas/output_files/Chain1.cdf
+source_file = 1, C:/Users/Aluno/Desktop/multi_formas/db/fluxo.cbx.xml
+design_name = fluxo
+instance = comp, \B~I , B, fluxo, 1
+instance = comp, \C~I , C, fluxo, 1
+instance = comp, \A~I , A, fluxo, 1
+instance = comp, \S~0 , S~0, fluxo, 1
+instance = comp, \S~I , S, fluxo, 1
