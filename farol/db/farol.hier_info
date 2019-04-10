@@ -1,0 +1,6 @@
+|farol
+F => buzzer.IN0
+M => buzzer.IN1
+buzzer <= buzzer.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,8 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/Aluno/Desktop/farol/farol.v
+source_file = 1, C:/Users/Aluno/Desktop/farol/db/farol.cbx.xml
+design_name = farol
+instance = comp, \F~I , F, farol, 1
+instance = comp, \M~I , M, farol, 1
+instance = comp, \buzzer~0 , buzzer~0, farol, 1
+instance = comp, \buzzer~I , buzzer, farol, 1
