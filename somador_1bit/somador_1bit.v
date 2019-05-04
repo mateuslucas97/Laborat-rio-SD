@@ -1,4 +1,5 @@
-/*Somador de 1 bit comresposta no display de 7 segmentos */
+//Somador de 1 bit com resposta no display de 7 segmentos
+
 module somador_1bit(X,Y, TE, HEX0);
 input X,Y,TE; //entradas de controle(X e Y são 1bit cada)e o transporte de entrada
 output [0:6]HEX0; //saida no display de 7 segmentos ( é um vetor de 7 bits)
