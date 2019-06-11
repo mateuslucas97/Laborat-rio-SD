@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Desktop\registrador\simulation\modelsim
+vregistrador
+!i10b 1
+!s100 Slk>_>aeNNMGJ`W;N;7L<2
+ITnE3@bW8f70J4I?WR]ebL3
+VJLlbIkYlgfnGel^UFWzTW1
+Z1 dC:\Users\Aluno\Desktop\registrador\simulation\modelsim
+w1559846412
+8C:/Users/Aluno/Desktop/registrador/registrador.v
+FC:/Users/Aluno/Desktop/registrador/registrador.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1559846565.848000
+!s107 C:/Users/Aluno/Desktop/registrador/registrador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aluno/Desktop/registrador|C:/Users/Aluno/Desktop/registrador/registrador.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/registrador -O0
