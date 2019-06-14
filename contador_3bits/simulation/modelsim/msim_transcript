@@ -1,0 +1,42 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do contador_3bits_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/contador_3bits {C:/Users/Aluno/Desktop/contador_3bits/contador_3bits.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module contador_3bits
+# 
+# Top level modules:
+# 	contador_3bits
+# 
+vsim work.contador_3bits
+# vsim work.contador_3bits 
+# Loading work.contador_3bits
+wave create -driver freeze -pattern clock -initialvalue HiZ -period 10ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/contador_3bits/clock
+wave create -driver freeze -pattern clock -initialvalue 1 -period 1000ps -dutycycle 95 -starttime 0ps -endtime 1000ps sim:/contador_3bits/reset
+add wave -position end  sim:/contador_3bits/q
+run
+run
+wave create -driver freeze -pattern clock -initialvalue 1 -period 1000ps -dutycycle 5 -starttime 0ps -endtime 1000ps sim:/contador_3bits/reset
+add wave -position end  sim:/contador_3bits/q
+run
+# 
+# Internal Error: In tclprim_ApplyStimulus for /contador_3bits/clock "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+# Internal Error: In tclprim_ApplyStimulus for /contador_3bits/reset "Time value must be greater than "now": 1000 ps
+# ** Error: (vsim-4004) The -cancel option requires a time period argument.
+# Usage: force [-deposit | -drive | -freeze] [-cancel <period>] [-repeat <period>] <item_name> <value> [<time>] [, <value> <time> ...]"
+restart -f
+run
+restart -f
+run
+wave editwrite -file C:/Users/Aluno/Desktop/contador_3bits/simulation/modelsim/wave.do

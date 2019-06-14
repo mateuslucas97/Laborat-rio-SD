@@ -1,0 +1,17 @@
+module contador_3bits(clock,reset,HEX0);
+
+input clock, reset;
+output [6:0] HEX0;
+reg [2:0] q;
+	
+	always @(posedge clock or posedge reset)
+	begin
+		if(reset)
+		begin
+			q = 0;
+			end
+		else
+		q = q+1;
+	end
+
+endmodule

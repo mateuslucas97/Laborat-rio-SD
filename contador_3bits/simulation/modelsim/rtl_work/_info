@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Aluno\Desktop\contador_3bits\simulation\modelsim
+vcontador_3bits
+!i10b 1
+!s100 FDZ1[c5Z1;Ti<>J0olji03
+Ik2>Eg0ATR7:hU^VYd=6FE0
+VkdK_ibOYh4P@lBCnL0`iN3
+Z1 dC:\Users\Aluno\Desktop\contador_3bits\simulation\modelsim
+w1560450373
+8C:/Users/Aluno/Desktop/contador_3bits/contador_3bits.v
+FC:/Users/Aluno/Desktop/contador_3bits/contador_3bits.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1560450629.651000
+!s107 C:/Users/Aluno/Desktop/contador_3bits/contador_3bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Aluno/Desktop/contador_3bits|C:/Users/Aluno/Desktop/contador_3bits/contador_3bits.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/Aluno/Desktop/contador_3bits -O0
