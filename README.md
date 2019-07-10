@@ -1,1 +1,1 @@
-# práticas do laborio de sistemas digitais professora Mara 
+# práticas do laboratório de sistemas digitais professora Mara 
